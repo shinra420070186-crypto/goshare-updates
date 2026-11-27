@@ -1,14 +1,14 @@
 {
-  "versionCode": 14,
-  "versionName": "1.0.14",
-  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.14/GO-Share.apk",
-  "apkSha256": "4e5e61d8cec3a70661fb8079180e5e9bc399ba0297483cf7d8a5b3dc5531500f",
-  "apkSize": 1463198,
+  "versionCode": 15,
+  "versionName": "1.0.15",
+  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.15/GO-Share.apk",
+  "apkSha256": "2afb6829fee207dd1228a268afcfc400112a2d492494665d18cbf1c1b54e2676",
+  "apkSize": 1471390,
   "patch": {
-    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.14/v13-to-v14.patch",
-    "sha256": "8a5a05757591fbcc6edd222ee28fbb1093e9c948c7f54de0367bfaad4e318f3b",
-    "size": 1172559,
-    "baseCode": 13
+    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.15/v14-to-v15.patch",
+    "sha256": "2bf8afea84ced06f31620b2290eae805fd115e424879f36abe2c608b7fb75b68",
+    "size": 1180119,
+    "baseCode": 14
   },
-  "notes": "Files tab is now a real folder browser (All Files Access) with Documents/Archive/E-books sub-tabs and whole-folder select; Videos is a grouped list, Photos grid is clean, Apps is an icon grid; search on every tab; update pill beside the GO Share title; true notch fullscreen; Browser share mode on the Send screen; Wi-Fi-off prompts; hotspot join fixes (live QR credentials, silent discovery, join retry)"
+  "notes": "Diagnostics build: a failed scan-join now opens a details sheet recording the payload, Wi-Fi/location/permission state, scan-list visibility and per-attempt outcomes. No join behaviour changes."
 }
