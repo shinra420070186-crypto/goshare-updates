@@ -1,14 +1,14 @@
 {
-  "versionCode": 12,
-  "versionName": "1.0.12",
-  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.12/GO-Share.apk",
-  "apkSha256": "6b400a73dc1fed170ce5fa09285bda64cd4dcc94bf998e134cc26b7bdd8a4371",
-  "apkSize": 1418142,
+  "versionCode": 13,
+  "versionName": "1.0.13",
+  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.13/GO-Share.apk",
+  "apkSha256": "9fc2e543d532e322e3e6a2a9c046e3a5f4ad056cc3db27364d00dad2b1261fdb",
+  "apkSize": 1442718,
   "patch": {
-    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.12/v11-to-v12.patch",
-    "sha256": "ca3008b5b0ee5e0ad2df8bcc6cd139b58e931fa96dbeea49fabbd5e30db1f60e",
-    "size": 1405191,
-    "baseCode": 11
+    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.13/v12-to-v13.patch",
+    "sha256": "bf60f1ee138dbdf2d665a3b76e8e0efdddcb5c005000909d507f7e1b38434885",
+    "size": 1152520,
+    "baseCode": 12
   },
-  "notes": "The simple flow: Home is Send/Receive only, Receive silently hosts with one big QR, camera lives inside Send \u2014 point and it sends; your mascot now plays inside the progress ring; profile with your character; true fullscreen"
+  "notes": "New send flow: a ShareMe-style picker first (Files, Videos, Photos, Apps, Music \u2014 pick across tabs), then the connect screen with camera + nearby devices. The Update pill now stays on Home so you can check any time."
 }
