@@ -1,14 +1,14 @@
 {
-  "versionCode": 5,
-  "versionName": "1.0.5",
-  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.5/GO-Share.apk",
-  "apkSha256": "2917318fa25a4f30ac2bfccaba7786cbf43a9200ec6b7591bb4a8da24a306e61",
+  "versionCode": 6,
+  "versionName": "1.0.6",
+  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.6/GO-Share.apk",
+  "apkSha256": "f5fb45c62fc7e218ad1da8f624d4b67690e32b2be42f088b79b726d1ef5d2600",
   "apkSize": 832124,
   "patch": {
-    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.5/v4-to-v5.patch",
-    "sha256": "0f4966e9683fdb4bde92edcf3ecc4cb66276e256235c93b2b6ca20624e957faf",
-    "size": 826478,
-    "baseCode": 4
+    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.6/v5-to-v6.patch",
+    "sha256": "c81b97e8245bbcca0bec4d0eb225f3a7a5912f8ea7fc6961807fa79424061a26",
+    "size": 816450,
+    "baseCode": 5
   },
-  "notes": "Browser mode: an app now appears as ONE app card with a single .zip download of all its parts (byte-identical). Files you pick are offered to the browser page live \u2014 guests already connected see them appear automatically, and sending now asks Nearby device or QR/browser after you pick. The browser button moved off the Home screen into that chooser."
+  "notes": "Browser page now hands guests GO Share itself: install it once from the page, then apps you send install with one tap \u2014 no extracting, no parts to assemble."
 }
