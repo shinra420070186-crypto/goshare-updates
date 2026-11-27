@@ -1,14 +1,14 @@
 {
-  "versionCode": 2,
-  "versionName": "1.0.2",
-  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.2/GO-Share.apk",
-  "apkSha256": "75d6bbff347ff5b24d7d8f31658aa6d087a966fb82448ea847e7b4229ee16b7a",
-  "apkSize": 807548,
+  "versionCode": 3,
+  "versionName": "1.0.3",
+  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.3/GO-Share.apk",
+  "apkSha256": "814ee6236a4567faaec4cc63ec4b6ee86ae2f9e4431f59e0584b32ec0134c818",
+  "apkSize": 819836,
   "patch": {
-    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.2/v1-to-v2.patch",
-    "sha256": "59833f43ce2191253f643ae91ee4ebbc178a6b57c5da4c24f8a32544f89c87b3",
-    "size": 802724,
-    "baseCode": 1
+    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.3/v2-to-v3.patch",
+    "sha256": "0dd1261c61d0de4dd9142d094a62037223a0654790d34440139b80ecad54bae9",
+    "size": 814661,
+    "baseCode": 2
   },
-  "notes": "Hotspot browser page fixed (the QR could show a wrong address and refuse connections). New: Send \u2192 Apps \u2014 send installed apps and games as APKs. Browser share is instant now: no more 'Preparing files' copy, downloads stream directly."
+  "notes": "Full app sending: apps now send every part (base + all split APKs) at the real total size, and the receiving phone gets a one-tap Install button on the Delivered screen."
 }
