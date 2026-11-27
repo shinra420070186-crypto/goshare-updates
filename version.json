@@ -1,14 +1,14 @@
 {
-  "versionCode": 3,
-  "versionName": "1.0.3",
-  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.3/GO-Share.apk",
-  "apkSha256": "814ee6236a4567faaec4cc63ec4b6ee86ae2f9e4431f59e0584b32ec0134c818",
-  "apkSize": 819836,
+  "versionCode": 4,
+  "versionName": "1.0.4",
+  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.4/GO-Share.apk",
+  "apkSha256": "a5795bc89c4b3dbc3a0554425706a5fd031efa033961c41d83c636456025bb05",
+  "apkSize": 823932,
   "patch": {
-    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.3/v2-to-v3.patch",
-    "sha256": "0dd1261c61d0de4dd9142d094a62037223a0654790d34440139b80ecad54bae9",
-    "size": 814661,
-    "baseCode": 2
+    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.4/v3-to-v4.patch",
+    "sha256": "4c5c7ad8f5166841b746b547f0f040a1b7167c1501ef904e24db40b9a7d0a3b2",
+    "size": 818877,
+    "baseCode": 3
   },
-  "notes": "Full app sending: apps now send every part (base + all split APKs) at the real total size, and the receiving phone gets a one-tap Install button on the Delivered screen."
+  "notes": "Browser transfers now show the live Sending/Receiving screen (ring, %, MB/s) with the Delivered summary \u2014 guest uploads and downloads alike. Cancel on that screen aborts the browser transfer."
 }
