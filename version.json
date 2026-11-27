@@ -1,14 +1,14 @@
 {
-  "versionCode": 8,
-  "versionName": "1.0.8",
-  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.8/GO-Share.apk",
-  "apkSha256": "7e2b8c30808ac25b5532a7bcf6ce46e993415f03d448dfb82a3166028b8adfe9",
+  "versionCode": 9,
+  "versionName": "1.0.9",
+  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.9/GO-Share.apk",
+  "apkSha256": "b3121defa84d201cf00fd271a67975a43d8c1d37b2f1f57385cbeae2fde19114",
   "apkSize": 844412,
   "patch": {
-    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.8/v7-to-v8.patch",
-    "sha256": "3c444bf3a48030373461063f9e68d5cd2fbfac6df5626389327848ef0e9674cd",
-    "size": 839085,
-    "baseCode": 7
+    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.9/v8-to-v9.patch",
+    "sha256": "6285d5fc062d70f2e485824a7b8ba859df0a731d7662f2b1ef578af2a9c9cc13",
+    "size": 836490,
+    "baseCode": 8
   },
-  "notes": "Receive fixed: no more popup when a network is already up \u2014 the stage just waits; 'Receive via hotspot' works when your hotspot is already on (no failure, one simple sheet, browser code behind one tap). Searching restarts by itself when Wi-Fi/hotspot changes. All popups and the app list redesigned in the app's own style."
+  "notes": "The sender hosts now: Send, pick your files, then 'Start hotspot & send' \u2014 this phone makes the hotspot and the other phone just turns on Wi-Fi and joins it. Devices appear live inside the hotspot sheet \u2014 tap one to send. With no connection at all, the share sheet leads with 'Turn on hotspot' / 'Join same Wi-Fi'. Receiver side simplified: no hotspot button on Home; Receive with no connection just says 'Turn on Wi-Fi'."
 }
