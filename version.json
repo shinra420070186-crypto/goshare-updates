@@ -1,14 +1,14 @@
 {
-  "versionCode": 4,
-  "versionName": "1.0.4",
-  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.4/GO-Share.apk",
-  "apkSha256": "a5795bc89c4b3dbc3a0554425706a5fd031efa033961c41d83c636456025bb05",
-  "apkSize": 823932,
+  "versionCode": 5,
+  "versionName": "1.0.5",
+  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.5/GO-Share.apk",
+  "apkSha256": "2917318fa25a4f30ac2bfccaba7786cbf43a9200ec6b7591bb4a8da24a306e61",
+  "apkSize": 832124,
   "patch": {
-    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.4/v3-to-v4.patch",
-    "sha256": "4c5c7ad8f5166841b746b547f0f040a1b7167c1501ef904e24db40b9a7d0a3b2",
-    "size": 818877,
-    "baseCode": 3
+    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.5/v4-to-v5.patch",
+    "sha256": "0f4966e9683fdb4bde92edcf3ecc4cb66276e256235c93b2b6ca20624e957faf",
+    "size": 826478,
+    "baseCode": 4
   },
-  "notes": "Browser transfers now show the live Sending/Receiving screen (ring, %, MB/s) with the Delivered summary \u2014 guest uploads and downloads alike. Cancel on that screen aborts the browser transfer."
+  "notes": "Browser mode: an app now appears as ONE app card with a single .zip download of all its parts (byte-identical). Files you pick are offered to the browser page live \u2014 guests already connected see them appear automatically, and sending now asks Nearby device or QR/browser after you pick. The browser button moved off the Home screen into that chooser."
 }
