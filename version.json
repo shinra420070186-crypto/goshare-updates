@@ -1,14 +1,14 @@
 {
-  "versionCode": 13,
-  "versionName": "1.0.13",
-  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.13/GO-Share.apk",
-  "apkSha256": "9fc2e543d532e322e3e6a2a9c046e3a5f4ad056cc3db27364d00dad2b1261fdb",
-  "apkSize": 1442718,
+  "versionCode": 14,
+  "versionName": "1.0.14",
+  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.14/GO-Share.apk",
+  "apkSha256": "4e5e61d8cec3a70661fb8079180e5e9bc399ba0297483cf7d8a5b3dc5531500f",
+  "apkSize": 1463198,
   "patch": {
-    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.13/v12-to-v13.patch",
-    "sha256": "bf60f1ee138dbdf2d665a3b76e8e0efdddcb5c005000909d507f7e1b38434885",
-    "size": 1152520,
-    "baseCode": 12
+    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.14/v13-to-v14.patch",
+    "sha256": "8a5a05757591fbcc6edd222ee28fbb1093e9c948c7f54de0367bfaad4e318f3b",
+    "size": 1172559,
+    "baseCode": 13
   },
-  "notes": "New send flow: a ShareMe-style picker first (Files, Videos, Photos, Apps, Music \u2014 pick across tabs), then the connect screen with camera + nearby devices. The Update pill now stays on Home so you can check any time."
+  "notes": "Files tab is now a real folder browser (All Files Access) with Documents/Archive/E-books sub-tabs and whole-folder select; Videos is a grouped list, Photos grid is clean, Apps is an icon grid; search on every tab; update pill beside the GO Share title; true notch fullscreen; Browser share mode on the Send screen; Wi-Fi-off prompts; hotspot join fixes (live QR credentials, silent discovery, join retry)"
 }
