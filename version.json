@@ -1,9 +1,14 @@
 {
-  "versionCode": 1,
-  "versionName": "1.0.1",
-  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.1/GO-Share.apk",
-  "apkSha256": "eff6e1cd98e7c6d1fbf8448152574f745ba4c0603398effc624f6bc6b1837094",
-  "apkSize": 799356,
-  "patch": null,
-  "notes": "First release: local Wi-Fi + hotspot sharing at full speed, browser mode for iPhone, SHA-256 verified transfers."
+  "versionCode": 2,
+  "versionName": "1.0.2",
+  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.2/GO-Share.apk",
+  "apkSha256": "75d6bbff347ff5b24d7d8f31658aa6d087a966fb82448ea847e7b4229ee16b7a",
+  "apkSize": 807548,
+  "patch": {
+    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.2/v1-to-v2.patch",
+    "sha256": "59833f43ce2191253f643ae91ee4ebbc178a6b57c5da4c24f8a32544f89c87b3",
+    "size": 802724,
+    "baseCode": 1
+  },
+  "notes": "Hotspot browser page fixed (the QR could show a wrong address and refuse connections). New: Send \u2192 Apps \u2014 send installed apps and games as APKs. Browser share is instant now: no more 'Preparing files' copy, downloads stream directly."
 }
