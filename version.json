@@ -1,14 +1,14 @@
 {
-  "versionCode": 6,
-  "versionName": "1.0.6",
-  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.6/GO-Share.apk",
-  "apkSha256": "f5fb45c62fc7e218ad1da8f624d4b67690e32b2be42f088b79b726d1ef5d2600",
-  "apkSize": 832124,
+  "versionCode": 7,
+  "versionName": "1.0.7",
+  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.7/GO-Share.apk",
+  "apkSha256": "2b7c9ec444cdb2d9df73019577194810b8b6910f58e7085d04d981a1d78c41c9",
+  "apkSize": 836220,
   "patch": {
-    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.6/v5-to-v6.patch",
-    "sha256": "c81b97e8245bbcca0bec4d0eb225f3a7a5912f8ea7fc6961807fa79424061a26",
-    "size": 816450,
-    "baseCode": 5
+    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.7/v6-to-v7.patch",
+    "sha256": "720a0ee5ecbc115810fd87b1a331852081d74f394d90c635eea6c937e31e4a18",
+    "size": 831556,
+    "baseCode": 6
   },
-  "notes": "Browser page now hands guests GO Share itself: install it once from the page, then apps you send install with one tap \u2014 no extracting, no parts to assemble."
+  "notes": "Discovery fix: phones on the same Wi-Fi now find each other reliably (multicast lock + resolve retries). The share sheet lists nearby devices directly \u2014 tap one to send. Home now shows 'Looking for devices\u2026' while searching."
 }
