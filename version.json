@@ -1,14 +1,14 @@
 {
-  "versionCode": 10,
-  "versionName": "1.0.10",
-  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.10/GO-Share.apk",
-  "apkSha256": "c7075689f0561ee847694e9bc6fc9e47aaa52290bd559aa9690faeaa3639f906",
-  "apkSize": 852604,
+  "versionCode": 11,
+  "versionName": "1.0.11",
+  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.11/GO-Share.apk",
+  "apkSha256": "655b83c990eafbd16c280fcdd3b6f75ebc3aedba73e53c88f9a33d437161977d",
+  "apkSize": 856700,
   "patch": {
-    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.10/v9-to-v10.patch",
-    "sha256": "82d2b60a61d6bae7d0e804a934b178d068f2a4e4462cd8f12c6fca987e6472e3",
-    "size": 846455,
-    "baseCode": 9
+    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.11/v10-to-v11.patch",
+    "sha256": "bd110bf0c6d958932ca44200f238555855af1daca79922e5e8c0fc8d35939a92",
+    "size": 849731,
+    "baseCode": 10
   },
-  "notes": "v1.0.10 \u2014 A phone can no longer discover itself (the Realme listing itself as its only nearby device is fixed), Receive always answers visibly with the waiting line, and a new UDP beacon discovery channel finds the other phone even when hotspot mDNS doesn't cross \u2014 including the receiver finding the sender by knocking on the gateway."
+  "notes": "No more Preparing \u2014 sends start instantly with streaming SHA-256 verification; sender progress fixed; discovery now runs only inside Send/Receive"
 }
