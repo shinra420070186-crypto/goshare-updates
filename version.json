@@ -1,14 +1,14 @@
 {
-  "versionCode": 7,
-  "versionName": "1.0.7",
-  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.7/GO-Share.apk",
-  "apkSha256": "2b7c9ec444cdb2d9df73019577194810b8b6910f58e7085d04d981a1d78c41c9",
-  "apkSize": 836220,
+  "versionCode": 8,
+  "versionName": "1.0.8",
+  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.8/GO-Share.apk",
+  "apkSha256": "7e2b8c30808ac25b5532a7bcf6ce46e993415f03d448dfb82a3166028b8adfe9",
+  "apkSize": 844412,
   "patch": {
-    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.7/v6-to-v7.patch",
-    "sha256": "720a0ee5ecbc115810fd87b1a331852081d74f394d90c635eea6c937e31e4a18",
-    "size": 831556,
-    "baseCode": 6
+    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.8/v7-to-v8.patch",
+    "sha256": "3c444bf3a48030373461063f9e68d5cd2fbfac6df5626389327848ef0e9674cd",
+    "size": 839085,
+    "baseCode": 7
   },
-  "notes": "Discovery fix: phones on the same Wi-Fi now find each other reliably (multicast lock + resolve retries). The share sheet lists nearby devices directly \u2014 tap one to send. Home now shows 'Looking for devices\u2026' while searching."
+  "notes": "Receive fixed: no more popup when a network is already up \u2014 the stage just waits; 'Receive via hotspot' works when your hotspot is already on (no failure, one simple sheet, browser code behind one tap). Searching restarts by itself when Wi-Fi/hotspot changes. All popups and the app list redesigned in the app's own style."
 }
