@@ -1,14 +1,14 @@
 {
-  "versionCode": 9,
-  "versionName": "1.0.9",
-  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.9/GO-Share.apk",
-  "apkSha256": "b3121defa84d201cf00fd271a67975a43d8c1d37b2f1f57385cbeae2fde19114",
-  "apkSize": 844412,
+  "versionCode": 10,
+  "versionName": "1.0.10",
+  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.10/GO-Share.apk",
+  "apkSha256": "c7075689f0561ee847694e9bc6fc9e47aaa52290bd559aa9690faeaa3639f906",
+  "apkSize": 852604,
   "patch": {
-    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.9/v8-to-v9.patch",
-    "sha256": "6285d5fc062d70f2e485824a7b8ba859df0a731d7662f2b1ef578af2a9c9cc13",
-    "size": 836490,
-    "baseCode": 8
+    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.10/v9-to-v10.patch",
+    "sha256": "82d2b60a61d6bae7d0e804a934b178d068f2a4e4462cd8f12c6fca987e6472e3",
+    "size": 846455,
+    "baseCode": 9
   },
-  "notes": "The sender hosts now: Send, pick your files, then 'Start hotspot & send' \u2014 this phone makes the hotspot and the other phone just turns on Wi-Fi and joins it. Devices appear live inside the hotspot sheet \u2014 tap one to send. With no connection at all, the share sheet leads with 'Turn on hotspot' / 'Join same Wi-Fi'. Receiver side simplified: no hotspot button on Home; Receive with no connection just says 'Turn on Wi-Fi'."
+  "notes": "v1.0.10 \u2014 A phone can no longer discover itself (the Realme listing itself as its only nearby device is fixed), Receive always answers visibly with the waiting line, and a new UDP beacon discovery channel finds the other phone even when hotspot mDNS doesn't cross \u2014 including the receiver finding the sender by knocking on the gateway."
 }
