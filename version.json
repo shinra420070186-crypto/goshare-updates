@@ -1,14 +1,14 @@
 {
-  "versionCode": 11,
-  "versionName": "1.0.11",
-  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.11/GO-Share.apk",
-  "apkSha256": "655b83c990eafbd16c280fcdd3b6f75ebc3aedba73e53c88f9a33d437161977d",
-  "apkSize": 856700,
+  "versionCode": 12,
+  "versionName": "1.0.12",
+  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.12/GO-Share.apk",
+  "apkSha256": "6b400a73dc1fed170ce5fa09285bda64cd4dcc94bf998e134cc26b7bdd8a4371",
+  "apkSize": 1418142,
   "patch": {
-    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.11/v10-to-v11.patch",
-    "sha256": "bd110bf0c6d958932ca44200f238555855af1daca79922e5e8c0fc8d35939a92",
-    "size": 849731,
-    "baseCode": 10
+    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.12/v11-to-v12.patch",
+    "sha256": "ca3008b5b0ee5e0ad2df8bcc6cd139b58e931fa96dbeea49fabbd5e30db1f60e",
+    "size": 1405191,
+    "baseCode": 11
   },
-  "notes": "No more Preparing \u2014 sends start instantly with streaming SHA-256 verification; sender progress fixed; discovery now runs only inside Send/Receive"
+  "notes": "The simple flow: Home is Send/Receive only, Receive silently hosts with one big QR, camera lives inside Send \u2014 point and it sends; your mascot now plays inside the progress ring; profile with your character; true fullscreen"
 }
