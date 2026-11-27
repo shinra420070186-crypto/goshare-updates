@@ -1,0 +1,9 @@
+{
+  "versionCode": 1,
+  "versionName": "1.0.1",
+  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.1/GO-Share.apk",
+  "apkSha256": "eff6e1cd98e7c6d1fbf8448152574f745ba4c0603398effc624f6bc6b1837094",
+  "apkSize": 799356,
+  "patch": null,
+  "notes": "First release: local Wi-Fi + hotspot sharing at full speed, browser mode for iPhone, SHA-256 verified transfers."
+}
