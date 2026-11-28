@@ -1,14 +1,14 @@
 {
-  "versionCode": 21,
-  "versionName": "1.0.21",
-  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.21/GO-Share.apk",
-  "apkSha256": "4820489d2961afcb341d42a434a52e1e37468d00c1de326f190e78aa406a5c4a",
-  "apkSize": 1528734,
+  "versionCode": 22,
+  "versionName": "1.0.22",
+  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.22/GO-Share.apk",
+  "apkSha256": "4dc04ff998ddd93f685b1ee6f98986effbe6db5b587278e4848878e148cdc08f",
+  "apkSize": 1532830,
   "patch": {
-    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.21/v20-to-v21.patch",
-    "sha256": "650f1c6b88e5b29a2723592dd5ae9e8fec408a4ef15378ffa7ba1a4f9f976a78",
-    "size": 1213556,
-    "baseCode": 20
+    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.22/v21-to-v22.patch",
+    "sha256": "887d5dd920ff65d12a34553a688758760c8d17058d555d3daf36e1d123598b6f",
+    "size": 1209687,
+    "baseCode": 21
   },
-  "notes": "Avatar fill fix: the character now fills its circle on Profile, Home and Receive \u2014 measured crop, no more pale corners."
+  "notes": "Gate screen: a pre-flight checklist (Wi-Fi, Location, Permissions, Camera for send; Wi-Fi + Permissions for receive) now stands before the connect and Receive screens \u2014 NEXT lights only when everything is on. The in-flow Turn on Wi-Fi buttons are removed."
 }
