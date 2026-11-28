@@ -1,14 +1,14 @@
 {
-  "versionCode": 15,
-  "versionName": "1.0.15",
-  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.15/GO-Share.apk",
-  "apkSha256": "2afb6829fee207dd1228a268afcfc400112a2d492494665d18cbf1c1b54e2676",
-  "apkSize": 1471390,
+  "versionCode": 16,
+  "versionName": "1.0.16",
+  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.16/GO-Share.apk",
+  "apkSha256": "8df0a7fcb47e3df7304385f8a129a6ef7518235ac114c972b6ed4a84033e775d",
+  "apkSize": 1483678,
   "patch": {
-    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.15/v14-to-v15.patch",
-    "sha256": "2bf8afea84ced06f31620b2290eae805fd115e424879f36abe2c608b7fb75b68",
-    "size": 1180119,
-    "baseCode": 14
+    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.16/v15-to-v16.patch",
+    "sha256": "4ce6658c1f7e44cead6a715a6be921b8ed91947769c3c18b5804dcd9012a6ff5",
+    "size": 1195220,
+    "baseCode": 15
   },
-  "notes": "Diagnostics build: a failed scan-join now opens a details sheet recording the payload, Wi-Fi/location/permission state, scan-list visibility and per-attempt outcomes. No join behaviour changes."
+  "notes": "Apps tab: Installed | Packages with Recommendations and select-all; measured ShareMe selection animation; scan-join fix (location permission + Wi-Fi-off handling)"
 }
