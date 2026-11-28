@@ -1,14 +1,14 @@
 {
-  "versionCode": 20,
-  "versionName": "1.0.20",
-  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.20/GO-Share.apk",
-  "apkSha256": "545a3b9548edc12be998cc9c3b852ee6ea4dddeb5d2f9894e3a23c380ea669f5",
-  "apkSize": 1495966,
+  "versionCode": 21,
+  "versionName": "1.0.21",
+  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.21/GO-Share.apk",
+  "apkSha256": "4820489d2961afcb341d42a434a52e1e37468d00c1de326f190e78aa406a5c4a",
+  "apkSize": 1528734,
   "patch": {
-    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.20/v19-to-v20.patch",
-    "sha256": "518b9a7bd0249b83fb4827e26e86a8d9eed35595f05ceca6f6d4fd661183b73c",
-    "size": 1193514,
-    "baseCode": 19
+    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.21/v20-to-v21.patch",
+    "sha256": "650f1c6b88e5b29a2723592dd5ae9e8fec408a4ef15378ffa7ba1a4f9f976a78",
+    "size": 1213556,
+    "baseCode": 20
   },
-  "notes": "Close rule: a half-received file is kept for resume until you close the app \u2014 swipe GO Share away from recents and partials are deleted on the spot (the 7-day expiry is gone). System kills don't count: partials survive those and resume still works. Finished files land in Downloads/GOShare as always."
+  "notes": "Avatar fill fix: the character now fills its circle on Profile, Home and Receive \u2014 measured crop, no more pale corners."
 }
