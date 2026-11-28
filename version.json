@@ -1,14 +1,14 @@
 {
-  "versionCode": 23,
-  "versionName": "1.0.23",
-  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.23/GO-Share.apk",
-  "apkSha256": "7f364a3d2d2d62d83ea280193c81f3f85eafecd23afce0926795abe41758c132",
+  "versionCode": 24,
+  "versionName": "1.0.24",
+  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.24/GO-Share.apk",
+  "apkSha256": "1c0c5210a249eae35b07c516e7f1d3073c12505266f6ec98cf5fc9e6f665e304",
   "apkSize": 1532830,
   "patch": {
-    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.23/v22-to-v23.patch",
-    "sha256": "214a0a68a6d7906b80c4bddb4a0e624a601d7f1e1e4a53c916e700804cfaaef5",
-    "size": 1200606,
-    "baseCode": 22
+    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.24/v23-to-v24.patch",
+    "sha256": "008a29013adf5295fb8c0635511447ac505f0c1286d5b148c4fad80630f9eabe",
+    "size": 4557,
+    "baseCode": 23
   },
-  "notes": "Scanner/sheet loop fixed (camera restarts only when the diagnostics sheet closes); gate rows now flip live when Wi-Fi/Location are toggled from the quick-settings shade; join diagnostics record the exception message and the Change/Access Wi-Fi grant states."
+  "notes": "THE JOIN FIX: declare CHANGE_NETWORK_STATE \u2014 the permission requestNetwork requires (named verbatim by the v1.0.23 diagnostics sheet). No code changes."
 }
