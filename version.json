@@ -1,14 +1,14 @@
 {
-  "versionCode": 16,
-  "versionName": "1.0.16",
-  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.16/GO-Share.apk",
-  "apkSha256": "8df0a7fcb47e3df7304385f8a129a6ef7518235ac114c972b6ed4a84033e775d",
+  "versionCode": 17,
+  "versionName": "1.0.17",
+  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.17/GO-Share.apk",
+  "apkSha256": "6e92bc3583bb1cbc7483c79813ce79e1590a68823b0c84529916e83aead5bddd",
   "apkSize": 1483678,
   "patch": {
-    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.16/v15-to-v16.patch",
-    "sha256": "4ce6658c1f7e44cead6a715a6be921b8ed91947769c3c18b5804dcd9012a6ff5",
-    "size": 1195220,
-    "baseCode": 15
+    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.17/v16-to-v17.patch",
+    "sha256": "59e69fda5bd5453d37306e4bd2dd9e0b57e7bc45eb4dc7cdca611ca9c72392a2",
+    "size": 1175836,
+    "baseCode": 16
   },
-  "notes": "Apps tab: Installed | Packages with Recommendations and select-all; measured ShareMe selection animation; scan-join fix (location permission + Wi-Fi-off handling)"
+  "notes": "Picker polish: grid cells are bare when unselected (the filled check badge shows only on selected apps/photos), and the picker bottom bar is rebuilt \u2014 filled count bubble + big filled SEND pill; the selection clone flight now lands on the count bubble."
 }
