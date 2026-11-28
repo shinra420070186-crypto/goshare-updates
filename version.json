@@ -1,14 +1,14 @@
 {
-  "versionCode": 22,
-  "versionName": "1.0.22",
-  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.22/GO-Share.apk",
-  "apkSha256": "4dc04ff998ddd93f685b1ee6f98986effbe6db5b587278e4848878e148cdc08f",
+  "versionCode": 23,
+  "versionName": "1.0.23",
+  "apkUrl": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.23/GO-Share.apk",
+  "apkSha256": "7f364a3d2d2d62d83ea280193c81f3f85eafecd23afce0926795abe41758c132",
   "apkSize": 1532830,
   "patch": {
-    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.22/v21-to-v22.patch",
-    "sha256": "887d5dd920ff65d12a34553a688758760c8d17058d555d3daf36e1d123598b6f",
-    "size": 1209687,
-    "baseCode": 21
+    "url": "https://github.com/shinra420070186-crypto/goshare-updates/releases/download/v1.0.23/v22-to-v23.patch",
+    "sha256": "214a0a68a6d7906b80c4bddb4a0e624a601d7f1e1e4a53c916e700804cfaaef5",
+    "size": 1200606,
+    "baseCode": 22
   },
-  "notes": "Gate screen: a pre-flight checklist (Wi-Fi, Location, Permissions, Camera for send; Wi-Fi + Permissions for receive) now stands before the connect and Receive screens \u2014 NEXT lights only when everything is on. The in-flow Turn on Wi-Fi buttons are removed."
+  "notes": "Scanner/sheet loop fixed (camera restarts only when the diagnostics sheet closes); gate rows now flip live when Wi-Fi/Location are toggled from the quick-settings shade; join diagnostics record the exception message and the Change/Access Wi-Fi grant states."
 }
